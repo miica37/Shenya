@@ -1,0 +1,11 @@
+docs/_build
+docs/_static
+docs/_templates
+docs/~Notes
+
+make.bat
+Makefile
+
+*.sublime-project
+*.sublime-workspace
+*.lnk
