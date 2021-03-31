@@ -44,13 +44,7 @@ Characteritic
 Distributions
 -------------
 
-`Gumroad`_ | `Artstation`_ | `Turbosquid`_ | `CGTrader`_
-
-.. _Gumroad: http://www.python.org
-.. _Artstation: http://www.python.org
-.. _Turbosquid: http://www.python.org
-.. _CGTrader: http://www.python.org
-
+`Gumroad <https://gumroad.com/l/shenya>`_ | `Artstation <https://www.artstation.com/marketplace/p/DVxND/shenya>`_ | `CGTrader <https://www.cgtrader.com/3d-models/character/woman/shenya>`_ | `Turbosquid <https://www.turbosquid.com/FullPreview/Index.cfm/ID/1713172>`_
 
 .. toctree::
 	:maxdepth: 2
