@@ -5,14 +5,10 @@
 
 Shenya Documentation
 ====================
-Welcome to the documentation for Shenya, she's a character model designed by `Rabbit Heart`_.
+Welcome to the documentation for Shenya, she's a character model designed by `Rabbit Heart <https://rabbit-heart.my/>`_.
 
 .. rst-class:: special
-More artworks at `Artstation`_
-
-
-.. _Artstation page: http://www.python.org
-.. _Rabbit Heart: https://rabbit-heart.my/
+More artworks at `Artstation <https://www.artstation.com/artwork/lxYd6J>`_
 
 .. image:: /images/Shenya-cover.jpg
 	:align: center
@@ -159,6 +155,13 @@ Project Files
 .. note::
    Below is a simplified list, please check :ref:`this page<project_files_full_list>` for a full list
 
+
+ * Fbx
+    * Shenya.fbx
+
+ * Obj
+    * Shenya.obj
+
  * Zbrush
     * Shenya.ztl
 
@@ -184,12 +187,23 @@ Project Files
     * Shenya.spp
 
  * Textures
-    * 63 pngs and 5 psd (Located under Maya\\sourceimages)
+    * 63 pngs and 5 psd (located under Maya\\sourceimages)
 
  * Marmoset
     * Turntable.tbscene
     * Sitting on Stairs.tbscene
     * Holding Lantern.tbscene
 
+|
+
+Textures
+=============
+
+36 PBR Textures are exported from Substance Painter (master file included) for the Body (4 UDIMs) and various cloths parts (5 other parts: Top, Bottom, Shoes, Leggings, Accessories), in png format.
+
+* Eyes has only diffuse and specular
+* Hairs has diffuse, normal, opacity, depth, flow and ao
+* Teeths and Tongue are in one texture and has only diffuse and specular
+* Lantern is also using PBR and exported as png
 
 
