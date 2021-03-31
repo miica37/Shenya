@@ -17,6 +17,25 @@ More artworks at `Artstation`_
 .. image:: /images/Shenya-cover.jpg
 	:align: center
 
+|
+
+**Project Files Preview on Youtube:**
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/JqUTn7AywF0" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+|
+
+More Images at `Rabbit Heart <https://rabbit-heart.my/shenya-images/>`_
+
+.. image:: /images/shenya-images-at-rabbit-heart.jpg
+  :align: center
+
+|
+
 Characteritic
 -------------
 * Female
@@ -119,6 +138,21 @@ Geometry Parts
 
 |
 
+Software Versions and File Formats
+==================================
+
+* Maya 2020 (.ma)
+* Zbrush 2021.1 (.ztl)
+* Marvelous Designer 10 (6.0.351) (.Zprj)
+* Substance Painter 2020.2.2 (6.2.2) Build 661  (.spp)
+* Blender 2.90.1 (.blend)
+* Fbx (.fbx)
+* Obj (.obj)
+* Textures (.png)
+* Marmoset Toolbag 4.02 (.tbscene)
+
+|
+
 Project Files
 =============
 
@@ -150,7 +184,7 @@ Project Files
     * Shenya.spp
 
  * Textures
-    * 63 pngs and 6 psd (Located under Maya\\sourceimages)
+    * 63 pngs and 5 psd (Located under Maya\\sourceimages)
 
  * Marmoset
     * Turntable.tbscene

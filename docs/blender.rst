@@ -4,7 +4,7 @@ Blender
 
 Hairs for Shenya, created in Blender 2.90.1.
 
-`Hair Tool for Blender <https://gumroad.com/l/hairtool>`_ is used in the process but not required to be installed.
+`Hair Tool for Blender <https://gumroad.com/l/hairtool>`_ is used in the process (but not required to be installed).
 
 .. admonition:: File List in Blender Folder
    :class: refbox
