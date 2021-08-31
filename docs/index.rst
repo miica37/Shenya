@@ -47,7 +47,7 @@ Distributions
 
 |
 
-★ Model Highlights ★
+✦ Model Highlights ✦
 =====================
 
 Basic Maya Rig
@@ -147,7 +147,15 @@ Others:
 
 📧 Supports
 =============
-For any Issues / Requests / Inquiries / Suggestions, feel free to reach me at miicaneo@gmail.com or if you prefer to be anonymous, you can also leave a comment at https://rabbit-heart.my/contacts/ 😊
+For any Issues / Requests / Inquiries / Suggestions, feel free to reach me at miicaneo@gmail.com or if you prefer to be anonymous, you can also leave a comment at https://rabbit-heart.my/contacts/
+
+|
+
+.. note::
+	 Right click "Open Image in New Tab" to see the image in full resolution 😉
+
+	.. image:: /images/open-image-in-new-tab.jpg
+		:align: center
 
 |
 
