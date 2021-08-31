@@ -11,28 +11,28 @@ Changelog
 
 2021-08-20
 
-File Organization
-=================
+❒ File Organization
+====================
 
 * Textures moved from < \\Project\\Maya\\sourceimages > to < \\Project\\Textures >
 
-.. rst-class:: special
+.. rst-class:: tab
 
 Maya's project configuration file "workspace.mel" has been moved to < \\Project\\ >, previously you would set Maya project at < \\Project\\Maya\\ > but now changed to setting the Maya project at < \\Project\\ >
 
 
-Rendered Images
-===============
+❒ Rendered Images
+==================
 
-Added 14 rendered images from Blender and Marmoset Toolbag. They are inside a new folder "Images".
+* Added 14 rendered images from Blender and Marmoset Toolbag. They are inside a new folder "Images".
 
 
-Rig
-===
+❒ Rig
+======
 
 * Rebuilt mGear rig with new version 4.0.0
 
-.. rst-class:: special
+.. rst-class:: tab
 
 Also adjusted the shapes of some of the controls
 
@@ -47,7 +47,7 @@ Also adjusted the shapes of some of the controls
 .. image:: /images/changelog/v2/facial-blendshapes.jpg
    :align: center
 
-.. rst-class:: special
+.. rst-class:: tab
 
 List of blendshape targets (each splited to left side and right side): look_left, look_right, look_up, look_down, look_up_altcopy, eye_close, upper_lid_raiser, lid_tightener, brow_raiser, brow_lower, brow_inner_raise, brow_outer_raise, cheek_raiser, nose_wrinkler, nostril_dilator, nostril_compressor, smile, corner_puller, corner_depressor, upper_lip_raiser, lower_lip_depressor, chin_raiser, chin_depressor, dimpler, pucker, pucker, funneler, lip_pressor, lip_suck, lip_stretch, cheek_puff, lips_puff, lips_seal, mouth_narrow, mouth_push, mouth_slide
 
@@ -57,8 +57,8 @@ List of blendshape targets (each splited to left side and right side): look_left
 * Added Corrective shape to tops when shoulder down
 
 
-Model
-=====
+❒ Model
+========
 
 * Subtle changes to facial features (very subtle on the cheeks and eyelids looking upwards more), also lowered the hairline slightly
 
@@ -86,15 +86,15 @@ Model
 
 .. image:: /images/changelog/v2/body-shape-tweak-foot.gif
 
-.. rst-class:: special
+.. rst-class:: tab
 
 Topology: Added some edge loops to the area between the brows, the breast and the back (for slightly more resolution to play with when doing brows expression, etc)
 
-.. rst-class:: special
+.. rst-class:: tab
 
 Shape: Elbow is moved towards lower-arm (lower-arm is now shorter than upper-arm). Butt cleavage is moved lower (previously is too high and deep)
 
-.. rst-class:: special
+.. rst-class:: tab
 
 Topology and shape is also updated in Zbrush, the normal map is rebaked (though it wasn't very noticable)
 
@@ -104,29 +104,29 @@ Topology and shape is also updated in Zbrush, the normal map is rebaked (though 
 
 * Update Hairs
 
-.. rst-class:: special 
+.. rst-class:: tab 
 
  - lower polycount (V1: 17928 Tris, V2: 13680 Tris)
  
-.. rst-class:: special
+.. rst-class:: tab
 
  - filled some inner areas
  
-.. rst-class:: special
+.. rst-class:: tab
 
  - adjusted shape around the hairline
 
 
-Blender
-=======
+❒ Blender
+==========
 
-* Added 2 Blender scenes with lighting (Note: model is not rigged but brought in as fbx (mesh without skeleton) from Maya)
+* Added 3 Blender scenes with lighting (Note: model is not rigged but brought in as fbx (mesh without skeleton) from Maya)
 
 * Updated Blender hairs (Blender\Shenya Hairs.blend)
 
 
-Others
-======
+❒ Others
+=========
 
 * Megascans assets are used as props in some of the rendered images. They are not allowed to be distributed so I replace the geometry in scenes with a heavily reduced mesh. Megascans Textures also not included.
 
