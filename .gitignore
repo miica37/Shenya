@@ -1,8 +1,8 @@
 docs/_build
 docs/_templates
 docs/images/psd
-docs/changelog/v2/psd
-docs/changelog/v2/gif-source
+docs/images/changelog/v2/psd
+docs/images/changelog/v2/gif-source
 make.bat
 Makefile
 *.sublime-project
