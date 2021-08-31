@@ -34,7 +34,7 @@ Character height in scene: 186cm
 |
 
 .. note::
-   If the image displayed in this docs is too small, right click on the image and "Open Image in New Tab" to see the full resolution.
+   If the image displayed in this document is too small, right click on the image and "Open Image in New Tab" to see the full resolution.
 
 |
 

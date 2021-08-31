@@ -6,6 +6,8 @@ Blender is used for creation of the hairs (using the addon `Hair Tool for Blende
 
 In Shenya Version 2, a few Blender scenes used in rendering the images shown in Artstation and Rabbit Heart website are added.
 
+.. _pink_texture_bookmark:
+
 Please be aware that Megascans assets is used to create the environments but Megascans assets are not allowed to be distributed so in the Blender scene you will find decimated geometry with pink textures. To restore the scene you will need to download the Megascans assets and reimport them to the Blender scene.
 
 .. admonition:: File List in Blender Folder
@@ -74,7 +76,7 @@ Eevee test render.
 ********************************************************
 
 .. note::
-   Paragraphs above explained about the pink textures
+   :ref:`About the pink textures<pink_texture_bookmark>`
 
 .. image:: /images/Blender-Shenya-Pose-Sitting-on-Stairs-viewport.jpg
 	:align: center
