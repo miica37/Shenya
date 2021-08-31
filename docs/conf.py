@@ -224,7 +224,7 @@ ultimate_replacements = {
 
 def setup(app):
     print(app)
-    app.add_stylesheet('css/customstyle.css')
+    app.add_css_file('css/customstyle.css')
     app.add_config_value('ultimate_replacements', {}, True)
     app.connect('source-read', ultimateReplace)
     directives.register_directive('youtube', Youtube)

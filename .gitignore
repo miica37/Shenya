@@ -1,15 +1,11 @@
 docs/_build
 docs/_static
 docs/_templates
-docs/~Notes
-
 docs/images/psd
 docs/changelog/v2/psd
 docs/changelog/v2/gif-source
-
 make.bat
 Makefile
-
 *.sublime-project
 *.sublime-workspace
 *.lnk
