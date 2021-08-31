@@ -22,7 +22,7 @@ from docutils.parsers.rst import Directive, directives
 
 # -- Project information -----------------------------------------------------
 
-project = u'Shenya Documentation'
+project = u'Shenya Files Overview'
 copyright = u'2021, miica'
 author = u'miica'
 
@@ -105,7 +105,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ShenyaDocumentationDoc'
+htmlhelp_basename = 'ShenyaFilesOverviewDoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -132,7 +132,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ShenyaDocumentation.tex', u'Shenya Documentation Documentation',
+    (master_doc, 'ShenyaFilesOverview.tex', u'Shenya Files Overview',
      u'miica', 'manual'),
 ]
 
@@ -142,7 +142,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'ShenyaDocumentation', u'Shenya Documentation Documentation',
+    (master_doc, 'ShenyaFilesOverview', u'Shenya Files Overview',
      [author], 1)
 ]
 
@@ -153,8 +153,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ShenyaDocumentation', u'Shenya Documentation Documentation',
-     author, 'ShenyaDocumentation', 'One line description of project.',
+    (master_doc, 'ShenyaFilesOverview', u'Shenya Files Overview',
+     author, 'ShenyaFilesOverview', 'One line description of project.',
      'Miscellaneous'),
 ]
 

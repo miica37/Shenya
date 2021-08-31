@@ -11,7 +11,7 @@ Clothes for Shenya, created in Marvelous Designer.
    * Shenya Clothes.png
 
 ********************************************************
- | Shenya Clothes.Zprj
+ 🗋 Shenya Clothes.Zprj
 ********************************************************
 
 .. image:: /images/Marvelous-designer-Shenya-Clothes-viewport.jpg

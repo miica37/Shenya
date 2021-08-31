@@ -2,63 +2,91 @@
 Textures and UV
 ###############################
 
-Textures are located under Maya\\sourceimages
+.. _textures_bookmark:
 
-.. admonition:: File List in Maya\\sourceimages Folder
+.. role:: folder
+.. role:: special
+
+.. admonition:: File List in Textures Folder
 	:class: refbox
 
-	* accessories-diffuse.png
-	* accessories-glossiness.png
-	* accessories-normal.png
-	* accessories-specular.png
-	* body-diffuse.1001.png
-	* body-diffuse.1002.png
-	* body-diffuse.1003.png
-	* body-diffuse.1004.png
-	* body-glossiness.1001.png
-	* body-glossiness.1002.png
-	* body-glossiness.1003.png
-	* body-glossiness.1004.png
-	* body-normal.1001.png
-	* body-normal.1002.png
-	* body-normal.1003.png
-	* body-normal.1004.png
-	* body-specular.1001.png
-	* body-specular.1002.png
-	* body-specular.1003.png
-	* body-specular.1004.png
-	* bottom-diffuse.png
-	* bottom-glossiness.png
-	* bottom-normal.png
-	* bottom-specular.png
-	* corneas-normal.png
-	* eyes-diffuse.png
-	* eyes-diffuse.psd
-	* eyes-shadows-maya-preview.png
-	* eyes-shadows-maya-preview.psd
-	* eyes-shadows.png
-	* eyes-shadows.psd
-	* eyes-spec.png
-	* hair_ao.png
-	* hair_depth.png
-	* hair_diffuse.png
-	* hair_flow.png
-	* hair_normal.png
-	* hair_opacity.png
-	* leggings-diffuse.png
-	* leggings-glossiness.png
-	* leggings-normal.png
-	* leggings-specular.png
-	* shoes-diffuse.png
-	* shoes-glossiness.png
-	* shoes-normal.png
-	* shoes-specular.png
-	* teeths-tongue-diffuse.png
-	* teeths-tongue-normal.png
-	* top-diffuse.png
-	* top-glossiness.png
-	* top-normal.png
-	* top-specular.png
+	* :folder:`Textures`
+	   * accessories-diffuse.png  :special:`(1.27 MB)`
+	   * accessories-glossiness.png  :special:`(433.39 KB)`
+	   * accessories-normal.png  :special:`(194.58 KB)`
+	   * accessories-specular.png  :special:`(231.51 KB)`
+	   * body-diffuse.1001.png  :special:`(2.72 MB)`
+	   * body-diffuse.1002.png  :special:`(2.22 MB)`
+	   * body-diffuse.1003.png  :special:`(2.52 MB)`
+	   * body-diffuse.1004.png  :special:`(2.85 MB)`
+	   * body-glossiness.1001.png  :special:`(1.55 MB)`
+	   * body-glossiness.1002.png  :special:`(1.14 MB)`
+	   * body-glossiness.1003.png  :special:`(1.35 MB)`
+	   * body-glossiness.1004.png  :special:`(1.39 MB)`
+	   * body-normal.1001.png  :special:`(4.1 MB)`
+	   * body-normal.1002.png  :special:`(2.84 MB)`
+	   * body-normal.1003.png  :special:`(3.51 MB)`
+	   * body-normal.1004.png  :special:`(3.33 MB)`
+	   * body-specular.1001.png  :special:`(16.51 KB)`
+	   * body-specular.1002.png  :special:`(16.51 KB)`
+	   * body-specular.1003.png  :special:`(16.51 KB)`
+	   * body-specular.1004.png  :special:`(16.51 KB)`
+	   * bottom-diffuse.png  :special:`(16.02 MB)`
+	   * bottom-glossiness.png  :special:`(713.29 KB)`
+	   * bottom-normal.png  :special:`(4.11 MB)`
+	   * bottom-specular.png  :special:`(431.22 KB)`
+	   * corneas-normal.png  :special:`(3.02 MB)`
+	   * eyes-diffuse-maya-preview.png  :special:`(3.02 MB)`
+	   * eyes-diffuse.png  :special:`(3.02 MB)`
+	   * eyes-diffuse.psd  :special:`(4.31 MB)`
+	   * eyes-height.png  :special:`(3.02 MB)`
+	   * eyes-normal.png  :special:`(3.02 MB)`
+	   * eyes-shadows-maya-preview.png  :special:`(4.02 MB)`
+	   * eyes-shadows-maya-preview.psd  :special:`(5.0 MB)`
+	   * eyes-shadows.png  :special:`(4.02 MB)`
+	   * eyes-shadows.psd  :special:`(3.19 MB)`
+	   * eyes-spec.png  :special:`(3.02 MB)`
+	   * hair_ao.png  :special:`(3.07 MB)`
+	   * hair_depth.png  :special:`(2.31 MB)`
+	   * hair_diffuse.png  :special:`(2.19 MB)`
+	   * hair_flow.png  :special:`(2.71 MB)`
+	   * hair_normal.png  :special:`(4.94 MB)`
+	   * hair_opacity.png  :special:`(2.03 MB)`
+	   * leggings-diffuse.png  :special:`(3.49 MB)`
+	   * leggings-glossiness.png  :special:`(781.67 KB)`
+	   * leggings-normal.png  :special:`(5.5 MB)`
+	   * leggings-specular.png  :special:`(420.69 KB)`
+	   * shoes-diffuse.png  :special:`(2.88 MB)`
+	   * shoes-glossiness.png  :special:`(1.24 MB)`
+	   * shoes-normal.png  :special:`(3.33 MB)`
+	   * shoes-specular.png  :special:`(625.89 KB)`
+	   * teeths-tongue-diffuse.png  :special:`(857.07 KB)`
+	   * teeths-tongue-glossiness.png  :special:`(97.0 KB)`
+	   * teeths-tongue-normal.png  :special:`(2.88 MB)`
+	   * teeths-tongue-specular.png  :special:`(93.93 KB)`
+	   * top-diffuse.png  :special:`(1.3 MB)`
+	   * top-glossiness.png  :special:`(600.67 KB)`
+	   * top-golden-mask.png  :special:`(287.87 KB)`
+	   * top-normal.png  :special:`(4.47 MB)`
+	   * top-specular.png  :special:`(933.62 KB)`
+
+	   * :folder:`Sketchfab`
+	      * bottom-diffuse.jpg  :special:`(184.63 KB)`
+	      * bottom-specular.jpg  :special:`(94.18 KB)`
+	      * hair_diffuse_white.jpg  :special:`(250.84 KB)`
+	      * top-diffuse.jpg  :special:`(206.64 KB)`
+	      * top-specular.jpg  :special:`(190.08 KB)`
+
+	   * :folder:`Hair`
+	      * hair_diffuse.psd  :special:`(75.17 MB)`
+	      * hair_id.png  :special:`(2.86 MB)`
+	      * hair_opacity.psd  :special:`(57.27 MB)`
+
+	   * :folder:`Lantern`
+	      * lantern-diffuse.png  :special:`(5.67 MB)`
+	      * lantern-glossiness.png  :special:`(1.75 MB)`
+	      * lantern-normal.png  :special:`(6.12 MB)`
+	      * lantern-specular.png  :special:`(423.24 KB)`
 
 |
 
@@ -83,7 +111,7 @@ Textures are located under Maya\\sourceimages
 +---------------------------+---+---+---+---+------+-----+----+----------------------------------------------------------------------+
 | eyes-shadows-maya-preview |   | - |   |   | 1024 | -   |    | same as eyes-shadows but darker for viewing in Maya viewport         |
 +---------------------------+---+---+---+---+------+-----+----+----------------------------------------------------------------------+
-| teeths-tongue             | - | - |   |   | 2048 |     |    |                                                                      |
+| teeths-tongue             | - | - | - | - | 2048 |     |    |                                                                      |
 +---------------------------+---+---+---+---+------+-----+----+----------------------------------------------------------------------+
 | hairs                     | - | - |   |   | 2048 |     |    | textures are rendered from Blender                                   |
 +---------------------------+---+---+---+---+------+-----+----+----------------------------------------------------------------------+

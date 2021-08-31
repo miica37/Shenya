@@ -1,34 +1,17 @@
 .. Shenya Documentation master file, created by
-   sphinx-quickstart on Sat Sep  1 12:46:37 2018 (modifiend on March 2021).
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+	 sphinx-quickstart on Sat Sep  1 12:46:37 2018 (modifiend on March 2021).
+	 You can adapt this file completely to your liking, but it should at least
+	 contain the root `toctree` directive.
 
-Shenya Documentation
-====================
-Welcome to the documentation for Shenya, she's a character model designed by `Rabbit Heart <https://rabbit-heart.my/>`_.
+Shenya Files Overview
+=====================
+Welcome to the Files Overview of character Shenya, she's a character model designed by `Rabbit Heart <https://rabbit-heart.my/>`_.
 
 .. rst-class:: special
-More artworks at `Artstation <https://www.artstation.com/artwork/lxYd6J>`_
+	For more images, please check out at this page `Shenya <https://rabbit-heart.my/portfolio/shenya/>`_
 
 .. image:: /images/Shenya-cover.jpg
 	:align: center
-
-|
-
-**Project Files Preview on Youtube:**
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/JqUTn7AywF0" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-
-|
-
-More Images at `Rabbit Heart <https://rabbit-heart.my/shenya-images/>`_
-
-.. image:: /images/shenya-images-at-rabbit-heart.jpg
-  :align: center
 
 |
 
@@ -52,43 +35,42 @@ Distributions
 
 	project-files-full-list.rst
 	textures-and-uv.rst
+	zbrush.rst
 	maya.rst
 	blender.rst
 	marvelous-designer.rst
 	substance-painter.rst
-	marmoset.rst
+	marmoset-toolbag.rst
 	mgear.rst
 	mgear-customize-rig.rst
+	changelog.rst
 
 |
 
-Model Highlights
-================
+★ Model Highlights ★
+=====================
 
 Basic Maya Rig
 --------------
-   * Rig created using `mGear Rigging Framework <http://www.mgear-framework.com/>`_
+	 * Rig created using `mGear Rigging Framework <http://www.mgear-framework.com/>`_
+	 * Facial Expressions (FACS based) (no separate controller yet, it's all in one controller)
 
 .. note::
-   * mGear Installation is required to use the rig.
-   * Skirt is bound to legs joints (skirt rig is in development)
-   * Limited facial expression: smile, eyes close
-   * No facial rigging
+	 * Requires mGear to be installed (free)
 
 Full Body Base Mesh Included
 ----------------------------
-   
-   * Base Mesh for Maya and Zbrush
-   * Quad topology
-   * Can be easily repurposed for other (mainly female) characters
+	 
+	 * Base Mesh for Maya and Zbrush
+	 * Quad topology
 
 .. note::
-   Body mesh has uv but the uv is spreaded out into 4 UDIMS.
+	 Body's uv is spreaded into 4 UDIMS.
 
 
 PBR Textures
 ------------
-Textures are created using Specular / Glossiness Workflow in Substance Painter.
+Textures are created using Specular / Glossiness Workflow in Substance Painter. (Metalness / Roughness textures will be provided soon.)
 
 |
 
@@ -97,13 +79,13 @@ Geometry Parts
 +---------------+-------+-------+----------------------------------------------+
 | Model Parts   | Tris  | Polys | Remarks                                      |
 +===============+=======+=======+==============================================+
-| Body          | 30056 | 15050 | All Quads. 4 UDIMs (Head, Torso, Arms, Legs) |
+| Body          | 30072 | 15076 | All Quads. 4 UDIMs (Head, Torso, Arms, Legs) |
 +---------------+-------+-------+----------------------------------------------+
-| Hairs         | 17928 | 8964  |                                              |
+| Hairs         | 13680 | 6840  |                                              |
 +---------------+-------+-------+----------------------------------------------+
-| Top           | 7589  | 3888  |                                              |
+| Tops          | 7589  | 3888  |                                              |
 +---------------+-------+-------+----------------------------------------------+
-| Bottom        | 15084 | 7696  |                                              |
+| Bottoms       | 15072 | 7693  |                                              |
 +---------------+-------+-------+----------------------------------------------+
 | Shoes         | 7460  | 4512  |                                              |
 +---------------+-------+-------+----------------------------------------------+
@@ -117,13 +99,15 @@ Geometry Parts
 +---------------+-------+-------+----------------------------------------------+
 | Teeths Tongue | 1226  | 1224  |                                              |
 +---------------+-------+-------+----------------------------------------------+
-| --- Total --- | 89469 | 46718 | (! Very High Poly)                           |
+| ---Total---   | 85225 | 44617 |                                              |
++---------------+-------+-------+----------------------------------------------+
+|               |       |       |                                              |
 +---------------+-------+-------+----------------------------------------------+
 | Eyebrows      | 45720 | 22860 | (! Very High Poly)                           |
 +---------------+-------+-------+----------------------------------------------+
 | Eyelashes     | 43020 | 21510 | (! Very High Poly)                           |
 +---------------+-------+-------+----------------------------------------------+
-| Underwear     | 652   | 326   | (Placeholder)                                |
+| Underwear     | 510   | 256   | (Placeholder)                                |
 +---------------+-------+-------+----------------------------------------------+
 
 |
@@ -131,11 +115,11 @@ Geometry Parts
 Software Versions and File Formats
 ==================================
 
-* Maya 2020 (.ma)
+* Maya 2020.4 (.ma)
 * Zbrush 2021.1 (.ztl)
 * Marvelous Designer 10 (6.0.351) (.Zprj)
 * Substance Painter 2020.2.2 (6.2.2) Build 661  (.spp)
-* Blender 2.90.1 (.blend)
+* Blender 2.93.3 (.blend)
 * Fbx (.fbx)
 * Obj (.obj)
 * Textures (.png)
@@ -143,61 +127,31 @@ Software Versions and File Formats
 
 |
 
-Project Files
-=============
-
-.. note::
-   Below is a simplified list, please check :ref:`this page<project_files_full_list>` for a full list
-
-
- * Fbx
-    * Shenya.fbx
-
- * Obj
-    * Shenya.obj
-
- * Zbrush
-    * Shenya.ztl
-
- * Maya
-    * Shenya Rig.ma
-    * Shenya Rig (Cloth Setup).ma
-    * Pose - Turntable.ma
-    * Pose - Sitting on Stairs.ma
-    * Pose - Sitting on Stairs.ma
-    * Pose - Holding Lantern.ma
-    * Lantern.ma
-    * cloth-setup.ma
-    * anim-layer-breath.ma
-    * lightings-A.ma
-
- * Marvelous Designer
-    * Shenya Clothes.Zprj
-
- * Blender
-    * Shenya Hairs.blend
-
- * Substance Painter
-    * Shenya.spp
-
- * Textures
-    * 63 pngs and 5 psd (located under Maya\\sourceimages)
-
- * Marmoset
-    * Turntable.tbscene
-    * Sitting on Stairs.tbscene
-    * Holding Lantern.tbscene
-
-|
-
 Textures
 =============
 
-36 PBR Textures are exported from Substance Painter (master file included) for the Body (4 UDIMs) and various cloths parts (5 other parts: Top, Bottom, Shoes, Leggings, Accessories), in png format.
+* PBR - Specular Glossiness (more about it :ref:`here<substance_painter_bookmark>`)
+* Body texture consist of 4 UDIMs x (diffuse + glossiness + specular + normal) (total of 16 textures)
+* About 10 texture set (more about textures :ref:`here<textures_bookmark>`)
+* File format is PNG
 
-* Eyes has only diffuse and specular
+Others:
+
+* Eyes has diffuse, specular, normal and height
 * Hairs has diffuse, normal, opacity, depth, flow and ao
-* Teeths and Tongue are in one texture and has only diffuse and specular
+* Teeths and Tongue are sharing one texture (and they are NOT part of they body texture).
 * Lantern is also using PBR and exported as png
+* There's a layer of mesh on top of eye and covering it, it's mesh is named Cornea but the texture is using "eyes-shadows.png". (Sorry about the naming inconsitency, will be fixed in future updates)
 
+|
+
+📧 Supports
+=============
+For any Issues / Requests / Inquiries / Suggestions, feel free to reach me at miicaneo@gmail.com or if you prefer to be anonymous, you can also leave a comment at https://rabbit-heart.my/contacts/ 😊
+
+|
+
+**About the video "Project Files Preview" on Youtube (old)** 
+
+A promotion video has been created for the first release of Shenya and released on Youtube, however in Version 2 there are quite some changes made, to prevent confusion, the youtube video is now hidden from public (`It is accessible only by link <https://www.youtube.com/embed/JqUTn7AywF0>`_).
 

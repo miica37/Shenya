@@ -11,31 +11,44 @@ Character height in scene: 186cm
 
    * Shenya Rig.ma
    * Shenya Rig (Cloth Setup).ma
-   * Pose - Turntable.ma
+   * Pose - Sketchfab.ma
+   * Pose - Marketplace Cover.ma
    * Pose - Holding Lantern.ma
    * Pose - Sitting on Stairs.ma
    * Lantern.ma
-   * anim-layer-breath.ma
    * cloth-setup.ma
    * lightings-A.ma
-   * maya-env.txt
-   * workspace.mel
    * [rig-build]
       ... files related to building mgear rig ...
    * [scripts]
-      ... various helper scripts ...
-   * [sourceimages]
-      ... list of textures ...
+      ... some Python scripts ...
+   * [cache]
+      ... ncloth cache for Pose - Sitting on Stairs.ma ...
 
 .. note::
    Naming conventions for the files: lower case files are mostly used as import 
    
    ie.
-   < anim-layer-breath.ma >, < cloth-setup.ma > and < lightings-A.ma > are files to be imported
+   < mgear-guide.ma >, < cloth-setup.ma > and < lightings-A.ma > are files to be imported
 
+|
+
+.. note::
+   If the image displayed in this docs is too small, right click on the image and "Open Image in New Tab" to see the full resolution.
+
+|
 
 ********************************************************
- | Shenya Rig.ma
+About the Rig
+********************************************************
+Shenya is rigged with `mGear <http://www.mgear-framework.com/>`_, more about mGear on :ref:`this page<mgear_bookmark>`
+
+Please be aware that it is however not a game friendly rig, it is using some "gimmick joints" and the elbow and knees got double joints for slightly more realistic deformations. It can still be brought into game engines I think it will probably needs some extra works to set it up correctly.
+
+|
+
+********************************************************
+ 🗋 Shenya Rig.ma
 ********************************************************
 
 Main character model file with rig.
@@ -49,7 +62,7 @@ Main character model file with rig.
 |
 
 ********************************************************
- | Shenya Rig (Cloth Setup).ma
+ 🗋 Shenya Rig (Cloth Setup).ma
 ********************************************************
 
 Character model file with rig, plus ncloth setup for skirt.
@@ -67,26 +80,37 @@ This file is refereced by "Pose - Sitting on Stairs.ma", to simulate the skirt s
 |
 
 ********************************************************
- | Pose - Turntable.ma
+ 🗋 Pose - Marketplace Cover.ma
 ********************************************************
 
-Pose file for youtube video.
+Pose file for rendering images to be used on websites.
 
 Referencing Shenya Rig.ma
 
-.. image:: /images/Maya-Pose-Turntable-viewport.jpg
+.. image:: /images/Maya-Pose-Marketplace-Cover-viewport.jpg
 	:align: center
 
-.. image:: /images/Maya-Pose-Turntable-outliner.jpg
+.. image:: /images/Maya-Pose-Marketplace-Cover-outliner.jpg
 	:align: center
 
-.. note::
-	Pose_Export is a duplicate of Shenya:geo_root, the mesh is further tweaked in Zbrush.
+|
+
+
+********************************************************
+ 🗋 Pose - Sketchfab.ma
+********************************************************
+
+Pose file for Sketchfab.
+
+Referencing Shenya Rig.ma
+
+.. image:: /images/Maya-Pose-Sketchfab-viewport.jpg
+   :align: center
 
 |
 
 ********************************************************
- | Pose - Holding Lantern.ma
+ 🗋 Pose - Holding Lantern.ma
 ********************************************************
 
 Pose file for marmoset.
@@ -99,7 +123,7 @@ Referencing Shenya Rig.ma and Latern.ma
 |
 
 ********************************************************
- | Pose - Sitting on Stairs.ma
+ 🗋 Pose - Sitting on Stairs.ma
 ********************************************************
 
 Pose file for marmoset.
@@ -112,31 +136,33 @@ Referencing Shenya Rig (Cloth Setup).ma
 |
 
 ********************************************************
- | Lantern.ma
+ 🗋 mgear-guide.ma
 ********************************************************
 
-Referenced by "Pose - Holding Lantern.ma"
+This file contain the mgear guide, it is needed if you need to rebuild the rig using mgear (for any reason like adjusting the joint positions, or modifying the mgear component to adjust the functionality, etc)
+
+.. image:: /images/Maya-mgear-guide-viewport.jpg
+   :align: center
 
 |
 
 ********************************************************
- | anim-layer-breath.ma
+ 🗋 cloth-setup.ma
 ********************************************************
 
-Animation layer for importing. Used in Pose - Turntable.ma
+This file contains the setup for ncloth meshes. It is used with "Shenya Rig.ma" to create "Shenya Rig (Cloth Setup).ma". The result file "Shenya Rig (Cloth Setup).ma" is used for simulating cloth in the stairs scene "Pose - Sitting on Stairs.ma".
+
+I use a script that you can find under "Maya\scripts\Shenya Setup nCloth.py" to create the "Shenya Rig (Cloth Setup).ma".
+
+If you modified "Shenya Rig.ma", you can use that script to regenerate "Shenya Rig (Cloth Setup).ma".
+
+.. image:: /images/Maya-cloth-setup-viewport.jpg
+   :align: center
 
 |
 
 ********************************************************
- | cloth-setup.ma
-********************************************************
-
-Shenya Rig.ma + cloth-setup.ma => Shenya Rig (Cloth Setup).ma
-
-|
-
-********************************************************
- | lightings-A.ma
+ 🗋 lightings-A.ma
 ********************************************************
 
 Just a few lights, for viewing model with lighting in Maya viewport.
@@ -144,15 +170,16 @@ Just a few lights, for viewing model with lighting in Maya viewport.
 |
 
 ********************************************************
- | workspace.mel
+ 🗋 workspace.mel
 ********************************************************
 
 Maya Project definition file, for setting up maya project so the textures can be linked properly.
 
 |
 
-********************************************************
-Rig
-********************************************************
-Shenya is rigged with `mGear <http://www.mgear-framework.com/>`_, more on :ref:`this page<mgear>`
 
+********************************************************
+ 🗋 Lantern.ma
+********************************************************
+
+Referenced by "Pose - Holding Lantern.ma"

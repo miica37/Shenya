@@ -2,11 +2,13 @@
 mGear
 ###############################
 
-.. _mgear:
+.. _mgear_bookmark:
 
-Shenya is rigged with mGear 3.6 but updated to mGear 3.7.9 before release.
+Shenya is rigged with `mGear <http://www.mgear-framework.com/>`_ 3.6 but updated to mGear 3.7.9 for the first release. In Version 2, the rig is again updated to use the latest version 4.0
 
-mGear is required for the rig to work (`Why does animator need mgear installed <http://forum.mgear-framework.com/t/why-does-animator-need-mgear-installed/535>`_)
+mGear is required for the rig to work (See `Why does animator need mgear installed <http://forum.mgear-framework.com/t/why-does-animator-need-mgear-installed/535>`_)
+
+You can download mGear 4.0 at `github <https://github.com/mgear-dev/mgear4/releases/>`_.
 
 ********************************************************
 Install mGear
@@ -38,8 +40,10 @@ You can assign hotkeys to some commands in Maya Hotkey Editor.
 * M Gear Walk Transform Child Add can be particularly useful for selecting child controls (like hair controls).
 
 
-Synoptic (for Animators)
-------------------------
+Synoptic (for Animators) (WARNING: DEPRECATED, USE ANIM PICKER INSTEAD)
+-----------------------------------------------------------------------
+
+Note that `Synoptic is not in development anymore <http://forum.mgear-framework.com/t/connect-synoptics-ik-fk-arm-button-to-custom-arm/2355/3>`_. It is replaced by `Anim Picker <https://www.youtube.com/watch?v=uQFLg8cWKb0>`_.
 
 .. image:: /images/mgear-synoptic-menu.jpg
 	:align: center
@@ -72,8 +76,3 @@ Viewport Menus
 	:align: center
 
 After enabling the Viewport Menu from mGear's menu, you can access it by selecting any mgear control and right click (hold).
-
-********************************************************
-Help
-********************************************************
-Please sent an email to miicaneo@gmail.com regarding any helps or problems with the rig.
